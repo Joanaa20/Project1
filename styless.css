@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway-Medium.ttf');
+}
+
+body {
+    background-color: #FFF4EF;
+}
+
+h1 {
+    color: #e76f51;
+    text-align: center;
+}
+
+#functions {
+    display: flex;
+    justify-content: center; 
+}
+
+button {
+    cursor: pointer;
+}
+
+button#add-book-btn {
+    height: 30px;
+    width: 140px;
+    background-color: #00749E;
+    color: white;
+    font-size: 1em;
+    border-style: none; 
+    border-radius: 15px;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-right: 20px; 
+}
+
+button#add-book-btn:focus,
+#filter:focus, 
+button.read:focus,
+button.unread:focus {
+    outline: none;
+}
+
+form  {
+    background-color: rgba(204, 194, 188, 0.705);
+    border-radius: 15px;
+    width: 350px;
+    padding: 25px 25px;
+    line-height: 1.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.alert {
+    text-align: center; 
+    color: white;
+    border-radius: 5px; 
+    padding: 5px; 
+    margin-bottom: 10px; 
+}
+
+.warning {
+    background-color: #be403c;
+}
+
+.success {
+    background-color: #3d9e86;
+}
+
+.label {
+    font-weight: bold;
+}
